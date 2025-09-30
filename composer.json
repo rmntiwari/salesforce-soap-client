@@ -1,0 +1,19 @@
+{
+  "name": "salesforce/soap-client",
+  "description": "Salesforce SOAP Client for PHP",
+  "require": {
+    "php": "^7.3",
+    "ext-soap": "*",
+    "guzzlehttp/guzzle": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Salesforce\\": "src/"
+    }
+  },
+  "config": {
+    "platform": {
+      "php": "7.3.0"
+    }
+  }
+}
