@@ -36,9 +36,9 @@ if (!empty($missingParams)) {
 // ---------------------
 // 🔐 Static Salesforce Credentials (for testing)
 // ---------------------
-$username      = 'raman946@agentforce.com';
-$password      = 'aB@123456';
-$securityToken = 'RsmpS9ZvW6sXVcuwypJ7uaVvN';
+$username      = '';
+$password      = '';
+$securityToken = '';
 
 // ---------------------
 // 🛠️ Initialize SalesforceClient
